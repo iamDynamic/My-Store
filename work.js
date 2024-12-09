@@ -17,16 +17,16 @@ function getParameter(x) {
 }
 
 WeDev.addEventListener("click", () => {
-  location.href = "/work.html?id=0b34a4b7-c3df-40c1-af56-61bf021341a1";
+  location.href = "./work.html?id=0b34a4b7-c3df-40c1-af56-61bf021341a1";
 });
 py.addEventListener("click", () => {
-  location.href = "/work.html?id=ad9eff9c-5860-4584-ac58-06b3f926099a";
+  location.href = "./work.html?id=ad9eff9c-5860-4584-ac58-06b3f926099a";
 });
 c.addEventListener("click", () => {
-  location.href = "/work.html?id=4ca8fb2b-b5f4-4836-8b74-5646185c10ff";
+  location.href = "./work.html?id=4ca8fb2b-b5f4-4836-8b74-5646185c10ff";
 });
 react.addEventListener("click",()=>{
-  location.href = "/work.html?id=3255d2e9-d554-4196-bc05-79e611a50748"
+  location.href = "./work.html?id=3255d2e9-d554-4196-bc05-79e611a50748"
 })
 var id = getParameter("id");
 
