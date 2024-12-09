@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Merriweather:wght@400&display=swap');
+
+* {
+    scrollbar-width: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    scroll-behavior: smooth;
+    background-repeat: no-repeat;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+
+    background-image: url(./images/back.jpg);
+}
+
+/* nav */
+nav {
+    display: flex;
+    padding: 30px;
+    background-color: #fff;
+}
+
+nav h1 {
+    font-size: 40px;
+    margin-left: 100px;
+}
+
+nav h1:hover {
+    cursor: default;
+    color: blueviolet;
+}
+
+nav div {
+    margin-top: 15px;
+    margin-left: 780px;
+}
+
+
+nav div a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+nav div a:hover {
+    text-decoration: underline 5px blueviolet;
+}
+main,.menu{
+    display: none;
+}
+
+/* body */
+article {
+    display: grid;
+    justify-content: start;
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+article h2 {
+    font-size: 15px;
+    color: #fff;
+}
+article h1 {
+    color: blueviolet;
+    font-size: 100px;
+    margin-top: 20px;
+}
+
+article h3 {
+    margin-top: 50px;
+    color: blueviolet;
+}
+
+button {
+    margin-top: 40px;
+    cursor: pointer;
+    width: 200px;
+    background-color: blueviolet;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px;
+    box-shadow: 3px 2px 2px #000;
+}
+button:hover{
+    background-color: #000;
+}
+section {
+    margin-top: 300px;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+}
+
+section .img {
+    background-color: #fff;
+    width: fit-content;
+    padding: 10px;
+    height: fit-content;
+}
+
+section aside {
+    margin-top: 120px;
+    margin-left: 200px;
+}
+
+section aside h3 {
+    font-size: 50px;
+    color: #fff;
+}
+
+section aside p {
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    color: blueviolet;
+}
+
+section aside p span {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #000;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+section aside footer {
+    margin-top: 50px;
+}
+
+@media (max-width:1700px) {
+    nav div {
+        margin-left: -1px;
+        margin-left: 600px;
+    }
+}
+
+@media (max-width:1540px) {
+    nav div {
+        margin-left: -1px;
+        margin-left: 500px;
+    }
+}
+
+@media (max-width:1430px) {
+    article{
+        margin-top: 220px;
+    }
+    main{
+        display: none;
+    }
+    .menutext {
+        background-color: blueviolet;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+
+    nav div {
+        display: none;
+    }
+
+    .menutext a:hover {
+        text-decoration: underline 5px #fff;
+    }
+
+    .menu {
+        display: flex;
+        cursor: pointer;
+        margin-left: 100px;
+    }
+    nav h1 {
+        margin-left: -1px;
+        margin-left: 20px;
+    }
+    .menutext a {
+        text-decoration: none;
+        color: black;
+        margin-left: 20px;
+        font-size: 20px;
+        font-weight: bolder;
+        text-transform: capitalize;
+    }
+    section aside .p{
+        margin-top: 10px;
+        font-weight: bolder;
+        color: rgb(198, 173, 255) !important;
+    }
+}
+@media (max-width:1064px) {
+    section .img{
+          background-color: transparent;
+    }
+    section img{
+        width: 200px;
+        margin-top: 200px;
+    }
+}
+@media (max-width:813px) {
+    img{
+        display: none;
+    }
+    .img{
+        display: flex;
+        justify-content: center;
+    }
+}

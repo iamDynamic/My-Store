@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Merriweather:wght@400&display=swap');
+
+* {
+    scrollbar-width: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    scroll-behavior: smooth;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+nav {
+    display: flex;
+    background-color: #001d3d;
+    color: #fff;
+    padding: 20px;
+}
+nav img{
+    width: 50px;
+}
+nav h1{
+    margin-left: 20px;
+    font-size: 40px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+main button{
+    padding: 10px;
+    border: solid #fff;
+    cursor: pointer;
+    background-color: #001d3d;
+    color: #fff;
+    border-radius: 10px;
+}
+article{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    
+}
+section div,
+div{
+    margin-top: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    text-align: center;
+    background-color: #001d3d;
+    box-shadow: 4px 4px 4px #000;
+}
+section div:hover,
+div:hover{
+    background-color: #000;
+    color: #fff;
+}
+section div img,
+article div img{
+    width: 100px;
+}
+section div h1,
+article div h1{
+    font-size: 40px;
+}
+section div p,
+article div p{
+    font-size: 20px;
+}
+section div h1,
+section div p,
+section div a,
+article div h1,
+article div p,
+article div a{
+    color: #fff;
+    padding: 5px;
+}
+section div a,
+article div a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+section div a:hover,
+article div a:hover{
+    text-decoration: underline;
+}
